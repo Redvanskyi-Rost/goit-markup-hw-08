@@ -1,0 +1,19 @@
+.footer-logo {
+  color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  .footer-logo__accent {
+    color: var(--primary-white-color);
+
+    transition: color 250ms var(--animation-timing);
+  }
+
+  // &:hover,
+  // &:focus {
+  //   color: var(--accent-color);
+  // }
+}
