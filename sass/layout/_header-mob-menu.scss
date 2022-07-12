@@ -1,5 +1,4 @@
 .header-btn {
-  position: relative;
   display: inline-flex;
   margin: 0;
   padding: 0;
@@ -12,6 +11,8 @@
 }
 
 .header-btn.is-open {
+  position: fixed;
+  right: 15px;
   z-index: 2;
   fill: var(--primary-text-color);
 }
@@ -36,6 +37,7 @@
 .header-menu {
   @media screen and (max-width: 767px) {
     &.is-open {
+      position: fixed;
       display: flex;
       padding: 48px 40px;
       flex-direction: column;
