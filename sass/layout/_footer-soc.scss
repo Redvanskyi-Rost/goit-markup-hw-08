@@ -1,7 +1,4 @@
 .social {
-  @media screen and (min-width: 1200px) {
-    width: 206px;
-  }
   &__title {
     font-family: 'Roboto';
     font-style: normal;
@@ -64,5 +61,9 @@
     &__link:focus & {
       fill: var(--primary-white-color);
     }
+  }
+
+  @media screen and (min-width: 1200px) {
+    // width: 206px;
   }
 }
